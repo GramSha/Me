@@ -1,0 +1,15 @@
+.masonry-grid {
+    margin: 3rem auto;
+
+    @media (max-width: 600px) {
+        column-count: 1;
+    }
+
+    @media (max-width: 900px) and (min-width: 600px) {
+        column-count: 2;
+    }
+
+    @media (min-width: 900px) {
+        column-count: 3;
+    }
+}

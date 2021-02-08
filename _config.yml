@@ -1,1 +1,21 @@
+# you probably want to put different words here...
+title: The title of your site 
+description: A short description (both defined in `_config.yml`)
+
+# theme you selected
 theme: jekyll-theme-tactile
+
+# defining what will do syntax highlighting
+highlighter: rouge
+
+# defining what and how will do markdown parsing
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# no idea what these are, but randomly remember them somewhere
+# and said was required for github pages....
+lsi: false
+safe: true
+incremental: false

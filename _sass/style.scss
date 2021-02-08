@@ -1,0 +1,70 @@
+@import "variables";
+@import "card";
+@import "masonry";
+@import "nav";
+
+
+ /* Start initial styles */
+html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    // overflow-y: scroll;
+    // overflow-x: hidden;
+    overflow-wrap: break-word;
+}
+
+body {
+    text-shadow: none;
+    background-color: #d3d3d3;
+    background-image: url('/assets/images/stressed-linen.png');
+}
+
+#container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 1rem 1rem rgba(82, 82, 82, 0.521);
+    display: flex;
+    flex-direction: column;
+};
+
+header {
+    padding: 2rem 3rem 1rem 3rem;
+    background-color: $header-background;
+}
+
+#main_content {
+    flex: 1 0 auto;
+    padding: 2rem 3rem;
+    background-color: $color-background;
+    margin: 0;
+}
+
+footer {
+    flex-shrink: 0;
+    margin: 0;
+    background-color: $color-primary;
+    color: $footer-background;
+    padding: 1rem 5rem 2rem 5rem;
+}
+
+
+hr {
+    border: 0;
+    padding: 0;
+    max-height: 1.5px;
+    background: $color-blend;
+    margin: 2rem 0;
+}
+
+ul li {
+    margin-left: 1.5rem;
+    // for some reason the inside position is creating a new line... 
+    // list-style-position: inside;
+    &::marker {
+        content: $list-arrow;
+        color: $color-primary;
+    }
+}

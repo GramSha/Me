@@ -1,0 +1,22 @@
+nav {
+    margin: 0;
+    padding: .5rem;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0 .5rem 1rem rgba(8, 8, 8, 0.452);
+    background-color: $nav-background;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+        align-self: center;
+        line-height: 1.25rem;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        margin: .25rem;
+        font-size: 1rem;
+        text-shadow: none;
+    };
+};

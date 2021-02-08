@@ -1,4 +1,29 @@
-## Welcome to GitHub Pages
+---
+# section for frontmatter
+---
+
+# Latest Posts
+
+__automatically new to old?__
+
+<!-- html version of generated list -->
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
+> ## Random example stuff below
+
 
 You can use the [editor on GitHub](https://github.com/GramSha/Me/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

@@ -1,0 +1,16 @@
+$color-primary: #b1b1b1;
+$color-secondary: #4b4b4b;
+
+$color-background: #f3f3f3;
+$header-background: #e0e0e0;
+$nav-background: #4b4b4b;
+$footer-background: #4b4b4b;
+
+$color-text: #000000;
+
+$list-arrow: '➫';
+
+$color-blend: linear-gradient(to right,
+    transparentize(#EEEEEE, 0.5),
+    transparentize(#424242, 0.5),
+    transparentize(#EEEEEE, 0.5));
